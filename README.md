@@ -1,6 +1,10 @@
 # Various Payment Plan
-
 **Author:** Esteban Acevedo  
+
+### README Translation
+- [English](README.md)
+- [Spanish](README.es.md)
+- [Portuguese](README.pt.md)
 
 ## Overview
 Odoo module that lets you pick a **different debit account** for outgoing payments based on the **payment reason**.
