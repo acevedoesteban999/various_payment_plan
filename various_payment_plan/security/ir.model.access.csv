@@ -1,0 +1,6 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_payment_reason_account_user,payment_reason_account_user,model_payment_reason,account.group_account_user,1,1,1,1
+access_payment_reason_system,payment_reason_system,model_payment_reason,base.group_system,1,1,1,1
+
+access_payment_reason_user,payment_reason_user,model_payment_reason,base.group_user,1,0,0,0
+access_payment_reason_account_invoice,payment_reason_account_invoice,model_payment_reason,account.group_account_invoice,1,0,0,0

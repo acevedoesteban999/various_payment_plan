@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- vpp: Various Payment Plan -->
+
+    <menuitem
+        id="ppv_reason_for_payment_menu"
+        name="Reason for Payment"
+        parent="account.account_management_menu"
+        action="action_payment_reason"
+        sequence="10"/>
+</odoo>

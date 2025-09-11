@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* various_payment_plan
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 19:00+0000\n"
+"PO-Revision-Date: 2025-09-11 15:01\n"
+"Last-Translator: PoTranslator <acevedoesteban999@gmail.com>\n"
+"Language-Team: PoTranslator <acevedoesteban999@gmail.com>\n"
+"Language: pt\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: PoTranslator\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__account_id
+msgid "Account"
+msgstr "Conta"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,help:various_payment_plan.field_payment_reason__account_id
+msgid ""
+"Account to use for this payment reason.                         Changing "
+"this option does not edit existing accounting entries,"
+"                         it only acts on new ones."
+msgstr ""
+"Conta a ser usada por esse motivo de pagamento.                         "
+"Alterar esta opção não edita entradas contábeis existentes, ela atua apenas "
+"em novas."
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__display_name
+msgid "Display Name"
+msgstr "Nome de exibição"
+
+#. module: various_payment_plan
+#: model_terms:ir.ui.view,arch_db:various_payment_plan.view_payment_reason_search
+msgid "Group By"
+msgstr "Grupo por"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__id
+msgid "ID"
+msgstr "EU IA"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,help:various_payment_plan.field_account_payment__is_various_payment
+msgid ""
+"Indicates if the payment is a various payment."
+"                                    Disabling this option with a multiple "
+"payment already                                     assigned will have no "
+"effect on the last account in the                                     "
+"accounting entry."
+msgstr ""
+"Indica se o pagamento é um pagamento em várias coisas."
+"                                    Desativar esta opção com um pagamento "
+"múltiplo já atribuído não terá efeito na última conta na entrada contábil."
+
+#. module: various_payment_plan
+#: model_terms:ir.ui.view,arch_db:various_payment_plan.view_payment_reason_form
+msgid "Info"
+msgstr "Informações"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_account_payment__is_various_payment
+msgid "Is Various Payment"
+msgstr "É vários pagamentos"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: various_payment_plan
+#: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__name
+#: model_terms:ir.ui.view,arch_db:various_payment_plan.view_payment_reason_search
+msgid "Name"
+msgstr "Nome"
+
+#. module: various_payment_plan
+#: model_terms:ir.ui.view,arch_db:various_payment_plan.view_payment_reason_form
+msgid "Name..."
+msgstr "Nome..."
+
+#. module: various_payment_plan
+#: model:ir.actions.act_window,name:various_payment_plan.action_payment_reason
+#: model:ir.model,name:various_payment_plan.model_payment_reason
+#: model:ir.model.fields,field_description:various_payment_plan.field_account_payment__payment_reason_id
+#: model_terms:ir.ui.view,arch_db:various_payment_plan.view_payment_reason_form
+msgid "Payment Reason"
+msgstr "Razão de pagamento"
+
+#. module: various_payment_plan
+#: model:ir.model,name:various_payment_plan.model_account_payment
+msgid "Payments"
+msgstr "Pagamentos"
+
+#. module: various_payment_plan
+#: model:ir.ui.menu,name:various_payment_plan.ppv_reason_for_payment_menu
+msgid "Reason for Payment"
+msgstr "Razão de pagamento"
+
+#. module: various_payment_plan
+#: model_terms:ir.actions.act_window,help:various_payment_plan.action_payment_reason
+msgid "There is no examples click here to add new Payment Reason."
+msgstr ""
+"Não há exemplos de clique aqui para adicionar um novo motivo de pagamento."
