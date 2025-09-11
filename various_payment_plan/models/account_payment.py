@@ -6,10 +6,10 @@ class VppAccountPyment(models.Model):
     is_various_payment = fields.Boolean(
                             string='Is Various Payment', 
                             default=False,
-                            help="""Indicates if the payment is a various payment.
-                                    Disabling this option with a multiple payment already 
-                                    assigned will have no effect on the last account in the 
-                                    accounting entry..""")
+                            help="Indicates if the payment is a various payment.\
+                                    Disabling this option with a multiple payment already \
+                                    assigned will have no effect on the last account in the \
+                                    accounting entry.")
 
     payment_reason_id = fields.Many2one('payment.reason', string='Payment Reason')
 
