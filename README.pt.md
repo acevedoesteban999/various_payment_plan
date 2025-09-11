@@ -2,6 +2,12 @@
 
 **Autor:**Esteban Acevedo
 
+### Readme Tradução
+
+-   [Inglês](README.md)
+-   [Espanhol](README.es.md)
+-   [Português](README.pt.md)
+
 ## Visão geral
 
 Módulo ODOO que permite escolher um**Conta de débito diferente**para pagamentos de saída com base no**Razão de pagamento**.
@@ -14,4 +20,4 @@ Módulo ODOO que permite escolher um**Conta de débito diferente**para pagamento
 
 ## Créditos
 
-[acevedoesteban999@gmail.com](mailto:acevedoesteban999@gmail.com)Todas as traduções foram geradas com o Repo Acevedesteban999:[PoTranslator](https://github.com/acevedoesteban999/PoTranslator).
+[acevedoesteban999@gmail.com](mailto:acevedoesteban999@gmail.com)Todas as traduções foram geradas com o Repo Acevedesteban999:[Pode](https://github.com/acevedoesteban999/PoTranslator).
