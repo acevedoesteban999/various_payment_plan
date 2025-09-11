@@ -3,14 +3,9 @@
     <!-- vpp: Various Payment Plan -->
 
     <menuitem
-        id="vpp_module_menu"
-        name="Various Payment Plan"
-        sequence="25"
-        web_icon="various_payment_plan,static/description/icon.png"
-        />
-    <menuitem
         id="ppv_reason_for_payment_menu"
         name="Reason for Payment"
         parent="account.account_management_menu"
+        action="action_payment_reason"
         sequence="10"/>
 </odoo>

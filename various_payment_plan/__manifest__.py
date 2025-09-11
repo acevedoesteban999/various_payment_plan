@@ -10,11 +10,14 @@
         'base',
         'account',
     ],
-    'data': [
+    "data": [
+        "security/ir.model.access.csv",
+        "views/payment_reason_views.xml",
+        
         "views/menu.xml",
     ],
     
-    'application': True,
+    'application': False,
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
