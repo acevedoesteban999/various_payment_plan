@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- vpp: Various Payment Plan -->
+
+    <menuitem
+        id="vpp_module_menu"
+        name="Various Payment Plan"
+        sequence="25"
+        web_icon="various_payment_plan,static/description/icon.png"
+        />
+    
+</odoo>

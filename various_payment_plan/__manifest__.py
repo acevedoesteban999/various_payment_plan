@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Plan Pagos Varios',
+    'name': 'Various Payment Plan',
     'version': '0.0.1',
-    'summary': """ Plan Pagos Varios Resumen """,
+    'summary': """ Various Payment Plan Description """,
     'author': '',
     'website': '',
     'category': '',
-    'depends': ['base'],
+    'depends': [
+        'base',
+        'account',
+    ],
     'data': [
         "views/menu.xml",
     ],
