@@ -2,9 +2,15 @@
 
 **Autor:**Esteban Acevedo
 
+### Traducción de lectura
+
+-   [Inglés](README.md)
+-   [Español](README.es.md)
+-   [portugués](README.pt.md)
+
 ## Descripción general
 
-Módulo de Odoo que te permite elegir un**Cuenta de débito diferente**para pagos salientes basados ​​en el**razón de pago**.
+Módulo de Odoo que te permite elegir un**Cuenta de débito diferente** for outgoing payments based on the **razón de pago**.
 
 ## Características
 
