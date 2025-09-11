@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Various Payment Plan',
-    'version': '0.0.2',
-    'summary': """ Various Payment Plan Description """,
-    'author': '',
+    'version': '0.0.3',
+    'summary': "Add the miscellaneous payments plan to accounting",
+    'description':"Changed outgoing payments to allow the use of a different debit account depending on the reason for the payment.",
+    'author': 'acevedoesteban999@gmail.com',
     'website': '',
-    'category': '',
+    'category': 'Accounting/Accounting',
     'depends': [
         'base',
         'account',
