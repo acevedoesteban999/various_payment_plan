@@ -1,6 +1,7 @@
 # Vários Plano de Pagamento
 
-**Autor:**Esteban Acevedo
+**Autor:**Esteban Acevedo  
+**Enquanto:**E 17
 
 ### Readme Tradução
 
