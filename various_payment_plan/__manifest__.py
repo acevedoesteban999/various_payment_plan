@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Various Payment Plan',
-    'version': '0.0.1',
+    'version': '0.0.2',
     'summary': """ Various Payment Plan Description """,
     'author': '',
     'website': '',
@@ -12,8 +12,9 @@
     ],
     "data": [
         "security/ir.model.access.csv",
+        "views/account_payment_views.xml",
         "views/payment_reason_views.xml",
-        
+
         "views/menu.xml",
     ],
     
