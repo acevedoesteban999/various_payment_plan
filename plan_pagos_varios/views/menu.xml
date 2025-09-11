@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- ppv: Plan Pagos Varios -->
+    <menuitem
+        id="ppv_module_menu"
+        name="Plan Pagos Varios"
+        sequence="25"
+        web_icon="plan_pagos_varios,static/description/icon.png"
+        />
+</odoo>
