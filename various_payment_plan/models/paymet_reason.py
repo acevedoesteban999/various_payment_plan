@@ -13,7 +13,8 @@ class PaymentReason(models.Model):
                     required=True,
                     help="Account to use for this payment reason. \
                         Changing this option does not edit existing accounting entries, \
-                        it only acts on new ones."
+                        it only acts on new ones.",
+                    domain=[('account_type','=','asset_receivable')]
                     )
     company_id = fields.Many2one('res.company', string='Company', required=True, default=lambda self: self.env.company)
 
