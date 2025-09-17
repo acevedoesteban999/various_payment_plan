@@ -20,7 +20,7 @@ class VppAccountPyment(models.Model):
                 liquidity_lines, counterpart_lines, writeoff_lines = pay._seek_for_lines()
                 counterpart_lines.account_id = self.payment_reason_id.account_id
         elif raise_not_vp:
-            raise exceptions.UserError(_("'%s' It is not assigning as various payments" % self.name))
+            raise exceptions.UserError(_("'%s' It is not assigning as various payments") % self.name)
 
     def create(self, vals_list):
         rec = super().create(vals_list)
@@ -42,7 +42,7 @@ class VppAccountPyment(models.Model):
                 'tag': 'display_notification',
                 'params': {
                     'title': 'Success',
-                    'message':  _('Reasons for payment recalculated successfully for %s records.' % (_len)) \
+                    'message':  _('Reasons for payment recalculated successfully for %s records.') % (_len) \
                                 if _len > 1 else _('Payment reason has been recalculated correctly'),
                     'type': 'success',   
                     'sticky': False,    
