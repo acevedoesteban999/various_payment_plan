@@ -5,7 +5,7 @@
     'summary': "Add the miscellaneous payments plan to accounting",
     'description':"Changed outgoing payments to allow the use of a different debit account depending on the reason for the payment.",
     'author': 'acevedoesteban999@gmail.com',
-    'website': '',
+    'website': 'https://github.com/acevedoesteban999/various_payment_plan',
     'category': 'Accounting/Accounting',
     'depends': [
         'base',
