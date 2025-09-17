@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0-20240421\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 19:00+0000\n"
-"PO-Revision-Date: 2025-09-11 15:01\n"
+"POT-Creation-Date: 2025-09-17 18:26+0000\n"
+"PO-Revision-Date: 2025-09-17 14:26\n"
 "Last-Translator: PoTranslator <acevedoesteban999@gmail.com>\n"
 "Language-Team: PoTranslator <acevedoesteban999@gmail.com>\n"
 "Language: es\n"
@@ -18,6 +18,13 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: various_payment_plan
+#. odoo-python
+#: code:addons/various_payment_plan/models/account_payment.py:0
+#, python-format
+msgid "'%s' It is not assigning as various payments"
+msgstr "'%s' no está asignando como varios pagos"
 
 #. module: various_payment_plan
 #: model:ir.model.fields,field_description:various_payment_plan.field_payment_reason__account_id
@@ -123,6 +130,13 @@ msgid "Payment Reason"
 msgstr "Razón de pago"
 
 #. module: various_payment_plan
+#. odoo-python
+#: code:addons/various_payment_plan/models/account_payment.py:0
+#, python-format
+msgid "Payment reason has been recalculated correctly"
+msgstr "La razón de pago se ha recalculado correctamente"
+
+#. module: various_payment_plan
 #: model:ir.model,name:various_payment_plan.model_account_payment
 msgid "Payments"
 msgstr "Pagos"
@@ -131,6 +145,18 @@ msgstr "Pagos"
 #: model:ir.ui.menu,name:various_payment_plan.ppv_reason_for_payment_menu
 msgid "Reason for Payment"
 msgstr "Razón para el pago"
+
+#. module: various_payment_plan
+#. odoo-python
+#: code:addons/various_payment_plan/models/account_payment.py:0
+#, python-format
+msgid "Reasons for payment recalculated successfully for %s records."
+msgstr "Razones para el pago recalculado con éxito para %s registros."
+
+#. module: various_payment_plan
+#: model:ir.actions.server,name:various_payment_plan.action_recalcule_move_id_payable_account
+msgid "Recalcule Payment Reason"
+msgstr "Recalcular Razón de Pago"
 
 #. module: various_payment_plan
 #: model_terms:ir.actions.act_window,help:various_payment_plan.action_payment_reason

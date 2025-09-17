@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Various Payment Plan',
-    'version': '1.0.0',
+    'version': '1.1.1',
     'summary': "Add the miscellaneous payments plan to accounting",
     'description':"Changed outgoing payments to allow the use of a different debit account depending on the reason for the payment.",
-    'author': 'acevedoesteban999@gmail.com',
+    'author': 'esteban@ydrsoluciones.com',
     'website': 'https://github.com/acevedoesteban999/various_payment_plan',
     'category': 'Accounting/Accounting',
     'depends': [
