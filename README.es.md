@@ -1,7 +1,7 @@
 # Plan de pago varios
 
-**Autor:**Esteban Acevedo  
-**Mientras:**Y 17
+Autor: Esteban Acevedo  
+mientras:
 
 ### Traducción de lectura
 
@@ -21,4 +21,4 @@ Módulo de Odoo que te permite elegir un**Cuenta de débito diferente**para pago
 
 ## Créditos
 
-[acevedoesteban999@gmail.com](mailto:acevedoesteban999@gmail.com)Todas las traducciones se generaron con Acepoesteban999 Repo:[Poder](https://github.com/acevedoesteban999/PoTranslator).
+[acevedoesteban999@gmail.com](mailto:acevedoesteban999@gmail.com)Todas las traducciones se generaron con Acepoesteban999 Repo:[PoTranslator](https://github.com/acevedoesteban999/PoTranslator).
