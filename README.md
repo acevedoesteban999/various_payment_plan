@@ -1,6 +1,6 @@
 # Various Payment Plan
-**Author:** Esteban Acevedo  
-**Odoo:** v17  
+Author: Esteban Acevedo  
+Odoo: 17  
 
 
 ### README Translation
