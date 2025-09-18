@@ -1,7 +1,7 @@
 # Vários Plano de Pagamento
 
-**Autor:**Esteban Acevedo  
-**Enquanto:**E 17
+Autor: Esteban Acevedo  
+enquanto:
 
 ### Readme Tradução
 
@@ -11,7 +11,7 @@
 
 ## Visão geral
 
-Módulo ODOO que permite escolher um**Conta de débito diferente**para pagamentos de saída com base no**Razão de pagamento**.
+Módulo ODOO que permite escolher um**Conta de débito diferente** for outgoing payments based on the **Razão de pagamento**.
 
 ## Características
 
