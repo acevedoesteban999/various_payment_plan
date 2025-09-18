@@ -1,7 +1,7 @@
 # Plan de pago varios
 
 Autor: Esteban Acevedo  
-mientras:
+Odoo: v17
 
 ### Traducción de lectura
 

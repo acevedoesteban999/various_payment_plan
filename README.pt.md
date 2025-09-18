@@ -1,7 +1,7 @@
 # Vários Plano de Pagamento
 
 Autor: Esteban Acevedo  
-enquanto:
+Odoo: v17
 
 ### Readme Tradução
 
@@ -11,7 +11,7 @@ enquanto:
 
 ## Visão geral
 
-Módulo ODOO que permite escolher um**Conta de débito diferente** for outgoing payments based on the **Razão de pagamento**.
+Módulo Odoo que permite escolher um**Conta de débito diferente** for outgoing payments based on the **Razão de pagamento**.
 
 ## Características
 
